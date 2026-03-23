@@ -20,7 +20,6 @@ def split_text(docs):
 
     split_docs = splitter.split_documents(docs)
 
-
     return split_docs
 
 def vector_store(split_docs):
